@@ -10,6 +10,8 @@ This project explores the intersection of formal language theory, procedural gen
 - [Project Overview](#project-overview)
 - [License](#license)
 
+- [Image classification with Python and Scikit learn | Computer vision tutorial](https://www.youtube.com/watch?v=il8dMDlXrIE)
+
 ---
 
 ## Lindenmayer Systems (L-Systems)

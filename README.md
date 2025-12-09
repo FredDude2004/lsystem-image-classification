@@ -4,6 +4,7 @@ This project explores the intersection of formal language theory, procedural gen
 
 ## Table of Contents
 
+- [Installation and Use](#installation-and-use)
 - [Lindenmayer Systems (L-Systems)](#lindenmayer-systems-l-systems)
 - [Stochastic Lindenmayer Systems](#stochastic-lindenmayer-systems)
 - [Supervised Machine Learning](#supervised-machine-learning)
@@ -13,6 +14,33 @@ This project explores the intersection of formal language theory, procedural gen
 - [Image classification with Python and Scikit learn | Computer vision tutorial](https://www.youtube.com/watch?v=il8dMDlXrIE)
 
 ---
+
+## Installation and Use
+
+You need Python version 3.11 to run this so make sure that you have the correct version of Python installed. 
+
+```bash
+# clone the repo and move into it
+git clone https://github.com/FredDude2004/lsystem-image-classification.git
+cd lsystem-image-classification/src
+
+# create a virtual environment, activate it and install dependencies
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Next you need to train the model by running the main.py
+
+```bash
+python main.py
+```
+
+Then you can run the client program predict.py and you can give it the path to any of the .jpg images that we placed in the src/ folder
+
+```bash
+python predict.py
+```
 
 ## Lindenmayer Systems (L-Systems)
 

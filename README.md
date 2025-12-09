@@ -6,6 +6,7 @@ This project explores the intersection of formal language theory, procedural gen
 
 - [Installation and Use](#installation-and-use)
 - [Lindenmayer Systems (L-Systems)](#lindenmayer-systems-l-systems)
+- [Java L-System implementation ](https://github.com/FredDude2004/L-Systems)
 - [Stochastic Lindenmayer Systems](#stochastic-lindenmayer-systems)
 - [Supervised Machine Learning](#supervised-machine-learning)
 - [Project Overview](#project-overview)

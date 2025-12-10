@@ -20,8 +20,17 @@ def main():
         img = np.array(img).reshape(1, -1)
 
         prediction = model.predict(img)[0]
-        print(f"\nPredicted class: {categories[prediction]}")
-    
+        if categories[prediction] == 'tree_a':
+            print(f"\nThe image that you provided belongs to Class A")
+        elif categories[prediction] == 'tree_b':
+            print(f"\nThe image that you provided belongs to Class B")
+        elif categories[prediction] == 'tree_b':
+            print(f"\nThe image that you provided belongs to Class C")
+        elif categories[prediction] == 'tree_b':
+            print(f"\nThe image that you provided belongs to Class D")
+        else:
+            print(f"\nThe image you provided does not belong to any of the tree categories")
+
     except Exception as e:
         print(f"Error: {e}")
 
